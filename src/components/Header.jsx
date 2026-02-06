@@ -29,7 +29,7 @@ function Header() {
           `}>
             {navItems.map((item) => (
               <li key={item.id} className="">
-                <a href={item.href} className={`hover:text-emerald-600 transition-colors font-medium`}>{item.label}</a>
+                <a href={item.href} className={`hover:text-emerald-500 transition-colors font-medium`}>{item.label}</a>
               </li>
             ))}
           </ul>
@@ -37,7 +37,9 @@ function Header() {
             {navItems.map((item) => (
               <li key={item.id}>
                 <a href={item.href} className="font-medium text-zinc-800 dark:text-zinc-400
-                hover:text-emerald-700 transition-colors">{item.label}</a>
+                hover:text-emerald-500
+                dark:hover:text-emerald-500
+                transition-colors">{item.label}</a>
               </li>
             ))}
           </ul>

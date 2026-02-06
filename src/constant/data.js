@@ -58,21 +58,22 @@ export const heroItems = [
     id: 1,
     icon: RiCodeFill,
     subtitle: "Frontend",
-    text: "React, TypeScript",
+    text: "React, TypeScript, Next.js",
   },
   {
     id: 2,
-    icon: RiDatabase2Line,
+    icon: RiGlobalLine,
     subtitle: "Backend",
-    text: "Node.js, Python, APIs",
+    text: "Node.js, Express.js, Nest.js",
   },
   {
     id: 3,
-    icon: RiGlobalLine,
-    subtitle: "DevOps",
-    text: "AWS, Docker, CI/CD",
+    icon: RiDatabase2Line,
+    subtitle: "Databases",
+    text: "MongoDB, Neon, Prisma",
   },
 ];
+
 
 export const heroBtns = [
   {
