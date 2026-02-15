@@ -7,7 +7,7 @@ function About() {
             <div>
                 <h2 className='section-title mb-3.5'>About Me</h2>
  <p>
-I’m a developer driven by curiosity and a love for problem-solving. What started as an interest in understanding how technology works gradually turned into a passion for building meaningful digital experiences. I enjoy transforming ideas into clean, responsive, and user-focused web applications, always striving to write code that is not just functional, but thoughtful and impactful.
+I’m a developer driven by curiosity and a love for problem-solving. What started as an interest in understanding how technology works gradually turned into a passion for building meaningful digital experiences. Always striving to write code that is not just functional, but thoughtful and impactful.
 </p>
 
             </div>
