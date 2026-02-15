@@ -74,7 +74,6 @@ export const heroItems = [
   },
 ];
 
-
 export const heroBtns = [
   {
     id: 1,
@@ -96,89 +95,84 @@ export const heroBtns = [
 export const aboutItems = [
   {
     id: 1,
-    icon: "/images/icon-1.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-1.svg",
     label: "React",
   },
   {
     id: 2,
-    icon: "/images/icon-2.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-2.svg",
     label: "Next.js",
   },
   {
     id: 3,
-    icon: "/images/icon-3.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-3.svg",
     label: "JavaScript",
   },
   {
     id: 4,
-    icon: "/images/icon-4.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-4.svg",
     label: "TypeScript",
   },
-  {
-    id: 5,
-    icon: "/images/icon-5.svg",
-    label: "Redux",
-  },
+
   {
     id: 6,
-    icon: "/images/icon-6.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-6.svg",
     label: "Tailwind",
   },
-  {
-    id: 7,
-    icon: "/images/icon-7.svg",
-    label: "Vue",
-  },
-  {
-    id: 8,
-    icon: "/images/icon-8.svg",
-    label: "Astro",
-  },
-  {
-    id: 9,
-    icon: "/images/icon-9.svg",
-    label: "Nuxt",
-  },
+
   {
     id: 10,
-    icon: "/images/icon-10.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-10.svg",
     label: "Node",
   },
   {
     id: 11,
-    icon: "/images/icon-11.png",
+    icon: import.meta.env.BASE_URL + "images/icon-11.png",
     label: "Supabase",
-  },
-  {
-    id: 12,
-    icon: "/images/icon-12.svg",
-    label: "Vite",
   },
 
   {
     id: 13,
-    icon: "/images/icon-13.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-13.svg",
     label: "Docker",
   },
-  {
-    id: 14,
-    icon: "/images/icon-14.svg",
-    label: "Github",
-  },
+
 
   {
-    id: 15,
-    icon: "/images/icon-15.svg",
-    label: "Sanity",
-  },
-  {
     id: 16,
-    icon: "/images/icon-16.svg",
+    icon: import.meta.env.BASE_URL + "images/icon-16.svg",
     label: "Python",
   },
   {
     id: 17,
-    icon: "/images/icon-17.svg",
-    label: "Figma",
+    icon: import.meta.env.BASE_URL + "images/amazon.png",
+    label: "AWS",
   },
+  {
+    id: 18,
+    icon: import.meta.env.BASE_URL + "images/neon.png",
+    label: "Neon",
+  },
+  {
+    id: 19,
+    icon: import.meta.env.BASE_URL + "images/pgsql.png",
+    label: "PostgreSQL",
+  },
+  {
+    id: 20,
+    icon: import.meta.env.BASE_URL + "images/mongodb-icon.svg",
+    label: "MongoDB",
+  },
+  {
+    id: 21,
+    icon: import.meta.env.BASE_URL + "images/redis.svg",
+    label: "Redis",
+  },
+  {
+    id: 22,
+    icon: import.meta.env.BASE_URL + "images/rabbitmq.svg",
+    label: "RabbitMQ",
+  },
+
+
 ];

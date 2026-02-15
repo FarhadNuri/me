@@ -1,5 +1,5 @@
 import { heroItems, heroBtns } from "../constant/data";
-import profilepic from "../images/CSW11.png";
+import profilepic from "/images/CSW11.png";
 const Hero = () => {
     return (
         <section className="mt-28" id="#">
