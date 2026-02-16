@@ -58,7 +58,7 @@ const Hero = () => {
                             <span>
                                 <btn.icon />
                             </span>
-                            {btn.label}
+                            <a target="#" href={btn.url}>{btn.label}</a>
                         </button>
                     ))}
                 </div>

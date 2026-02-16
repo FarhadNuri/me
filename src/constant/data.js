@@ -100,11 +100,13 @@ export const heroBtns = [
     id: 2,
     icon: RiMailLine,
     label: "Get In Touch",
+    url: "#contact",
   },
   {
     id: 3,
     icon: RiDownloadLine,
     label: "Download Resume",
+    url: "https://drive.google.com/file/d/1nesbPwi-clJqh6GpaOzeA62VdpHnKJna/view?usp=sharing"
   },
 ];
 

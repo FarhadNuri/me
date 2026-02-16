@@ -59,14 +59,14 @@ const Contact = () => {
         <div>
           <h2 className="section-title">Get In Touch</h2>
           <p className="pt-4">
-            Have a project in mind or want to discuss potential opportunities?
-            Feel free to reach out! and lets build something great together.
+            
+Feel free to reach out — either by email or through the contact form. Let’s build something great together.
           </p>
           <p className="pt-2 ">
-            <span className="dark:text-white">Send a mail at </span>
+            <span className="dark:text-white">Email:  </span>
             <a
               href="mailto:farhadnuri559@gmail.com"
-              className="text-emerald-700 underline"
+              className="text-emerald-500 underline"
             >
               farhadnuri559@gmail.com
             </a>
@@ -76,7 +76,7 @@ const Contact = () => {
               <a
                 href={link.url || "#"}
                 key={link.id}
-                className="hover:text-emerald-700 transition-colors"
+                className="hover:text-emerald-500 transition-colors"
                 title={link.label}
                 target="_blank"
                 rel="noopener noreferrer"
