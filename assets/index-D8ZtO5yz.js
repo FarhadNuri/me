@@ -24,7 +24,9 @@ Error generating stack: `+a.message+`
   dark:hover:bg-zinc-800 transition-colors rounded-full p-1`,children:f?C.jsx(Bd,{}):C.jsx(qd,{})})};function vm(){const[f,g]=Ee.useState(!1),S=()=>{g(!f)};return C.jsx("header",{className:"fixed top-0 left-0 w-full pt-3 z-40",children:C.jsx("div",{className:"container",children:C.jsxs("div",{className:`flex items-center justify-between bg-zinc-100/80 \r
         rounded-full px-4 py-3 border border-zinc-200 dark:bg-zinc-900\r
         dark:border-zinc-800 backdrop:blue-lg`,children:[C.jsx("div",{className:"flex items-center gap-3.5",children:Bo.map(s=>C.jsx("a",{href:s.url||"#",className:"hover:text-emerald-600 transition-colors",title:s.label,target:"_blank",rel:"noopener noreferrer",children:C.jsx(s.icon,{})},s.id))}),C.jsx("ul",{className:`lg:hidden absolute top-full right-6
-          bg-zinc-200 min-w-36 mt-3 rounded-lg p-5 space-y-3 scale-y-0 
+          bg-zinc-200 
+          dark:bg-zinc-900
+          min-w-36 mt-3 rounded-lg p-5 space-y-3 scale-y-0 
           transition-transform origin-top-right
             ${f?"scale-y-100":""}
           `,children:jo.map(s=>C.jsx("li",{className:"",children:C.jsx("a",{href:s.href,className:"hover:text-emerald-500 transition-colors font-medium",children:s.label})},s.id))}),C.jsx("ul",{className:"hidden lg:flex gap-8 items-center",children:jo.map(s=>C.jsx("li",{children:C.jsx("a",{href:s.href,className:`font-medium text-zinc-800 dark:text-zinc-400\r
