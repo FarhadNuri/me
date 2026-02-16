@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container">
         <div>
           <h2 className="section-title">Projects</h2>
-          <p className="max-w-2xl mt-3.5">
+          <p className=" mt-3.5">
             Here are some of the projects I've worked on. Each project
             represents a unique challenge and an opportunity to apply my skills
             in building modern web applications.
