@@ -9,24 +9,40 @@ import {
   RiMailLine,
   RiStackOverflowFill,
   RiTwitterXFill,
+  RiFacebookFill,
+  RiWhatsappFill,
 } from "@remixicon/react";
-
+import { SiCodeforces } from "react-icons/si";
 export const socialLink = [
   {
     id: 1,
     icon: RiGithubFill,
+    label: "Github",
+    url: "https://github.com/FarhadNuri",
   },
   {
     id: 2,
     icon: RiLinkedinBoxFill,
+    label: "LinkedIn",
+    url: "https://www.linkedin.com/in/farhad-nuri-ba99a62a5/",
   },
   {
     id: 3,
-    icon: RiTwitterXFill,
+    icon: RiFacebookFill,
+    label: "Facebook",
+    url: "https://www.facebook.com/farhad.hosen.7",
   },
   {
     id: 4,
-    icon: RiStackOverflowFill,
+    icon: SiCodeforces,
+    label: "Codeforces",
+    url: "https://codeforces.com/profile/63_FarhadNuri",
+  },
+  {
+    id: 5,
+    icon: RiWhatsappFill,
+    label: "WhatsApp",
+    url: "https://wa.me/1865779218",
   },
 ];
 
@@ -137,7 +153,6 @@ export const aboutItems = [
     label: "Docker",
   },
 
-
   {
     id: 16,
     icon: import.meta.env.BASE_URL + "images/icon-16.svg",
@@ -173,10 +188,7 @@ export const aboutItems = [
     icon: import.meta.env.BASE_URL + "images/rabbitmq.svg",
     label: "RabbitMQ",
   },
-
-
 ];
-
 
 export const timelineItems = [
   {
