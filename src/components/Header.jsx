@@ -33,7 +33,9 @@ function Header() {
           </div>
           <ul
             className={`lg:hidden absolute top-full right-6
-          bg-zinc-200 min-w-36 mt-3 rounded-lg p-5 space-y-3 scale-y-0 
+          bg-zinc-200 
+          dark:bg-zinc-900
+          min-w-36 mt-3 rounded-lg p-5 space-y-3 scale-y-0 
           transition-transform origin-top-right
             ${isMenuOpen ? "scale-y-100" : ""}
           `}
