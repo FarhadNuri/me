@@ -32,13 +32,19 @@ const Projects = () => {
                     justify-center items-center
                     gap-4 opacity-0 group-hover:opacity-100 transition-opacity
                     ">
-                        <a href="#"
+                        <a
+                        href={item.liveLink}
+                        target="_blank"
+                        rel="noreferrer"
                         className="
                         size-12 flex items-center bg-emerald-600 rounded-full
                         justify-center text-white
                         hover:bg-emerald-700 transition-colors
                         "><RiExternalLinkLine/></a>
-                        <a href="#"
+                        <a
+                        href={item.githubLink}
+                        target="_blank"
+                        rel="noreferrer"
                         className="size-12 flex items-center bg-white rounded-full
                         justify-center text-black
                         hover:bg-zinc-200 transition-colors"><RiGithubFill/></a>

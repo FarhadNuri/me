@@ -80,7 +80,7 @@ export const heroItems = [
     id: 2,
     icon: RiGlobalLine,
     subtitle: "Backend",
-    text: "Node.js, Express.js, Nest.js",
+    text: "Node.js, Express.js",
   },
   {
     id: 3,
@@ -95,6 +95,7 @@ export const heroBtns = [
     id: 1,
     icon: RiEyeLine,
     label: "View My Work",
+    url: "#projects",
   },
   {
     id: 2,
@@ -149,22 +150,14 @@ export const aboutItems = [
     label: "Supabase",
   },
 
-  {
-    id: 13,
-    icon: import.meta.env.BASE_URL + "images/icon-13.svg",
-    label: "Docker",
-  },
+
 
   {
     id: 16,
     icon: import.meta.env.BASE_URL + "images/icon-16.svg",
     label: "Python",
   },
-  {
-    id: 17,
-    icon: import.meta.env.BASE_URL + "images/amazon.png",
-    label: "AWS",
-  },
+
   {
     id: 18,
     icon: import.meta.env.BASE_URL + "images/neon.png",
@@ -185,11 +178,7 @@ export const aboutItems = [
     icon: import.meta.env.BASE_URL + "images/redis.svg",
     label: "Redis",
   },
-  {
-    id: 22,
-    icon: import.meta.env.BASE_URL + "images/rabbitmq.svg",
-    label: "RabbitMQ",
-  },
+
 ];
 
 export const timelineItems = [
@@ -228,42 +217,30 @@ export const timelineItems = [
 export const projectsItems = [
   {
     id: 1,
-    img: import.meta.env.BASE_URL + "images/portfolio-1.png",
-    title: "E-Commerce Platform",
-    text: "A full-featured online shopping platform with payment integration, inventory management, and real-time order tracking.",
-    tags: ["React", "Node.js", "MongoDB"],
-    link: "#",
+    img: import.meta.env.BASE_URL + "images/p1.png",
+    title: "FeastFlash",
+    text: "Simple food delivery site with category browsing, search, dish details, cart, random pricing, dark mode, and responsive layout.",
+    tags: ["HTML5", "Bootstrap 5", "JavaScript", "TheMealDB API"],
+    liveLink: "https://feastflash.netlify.app/",
+    githubLink: "https://github.com/FarhadNuri/FeastFlash",
   },
   {
     id: 2,
-    img: import.meta.env.BASE_URL + "images/portfolio-2.png",
-    title: "Glamping Destinations Finder",
-    text: "Interactive travel platform for discovering unique glamping locations with booking system, reviews, and interactive maps.",
-    tags: ["Next.js", "Mapbox", "Stripe"],
-    link: "#",
+    img: import.meta.env.BASE_URL + "images/p2.png",
+    title: "PULSEWIRE - News Portal",
+    text: "Minimalist news portal using NewsAPI with category browsing, sorting, responsive layout, and Today's Pick highlights.",
+    tags: ["JavaScript", "NewsAPI", "Responsive UI", "Sorting"],
+    liveLink: "https://pulsewirenews.netlify.app/#",
+    githubLink: "https://github.com/FarhadNuri/PulseWire",
   },
   {
     id: 3,
-    img: import.meta.env.BASE_URL + "images/portfolio-3.png",
-    title: "Creative Agency Website",
-    text: "Modern agency portfolio with stunning animations, case studies showcase, and seamless contact integration.",
-    tags: ["React", "Framer Motion", "Tailwind"],
-    link: "#",
+    img: import.meta.env.BASE_URL + "images/p3.png",
+    title: "Cartify",
+    text: "Full-stack product sharing app for creating, browsing, and commenting on products with type-safe tooling and fast UX.",
+    tags: ["React", "TypeScript", "TanStack Query", "Node.js", "Neon", "Clerk"],
+    liveLink: "https://cartify-3r6u.onrender.com/",
+    githubLink: "https://github.com/FarhadNuri/Cartify",
   },
-  {
-    id: 4,
-    img: import.meta.env.BASE_URL + "images/portfolio-4.png",
-    title: "Healthcare Management System",
-    text: "Comprehensive medical platform for patient records, appointment scheduling, telemedicine, and health analytics.",
-    tags: ["React", "TypeScript", "PostgreSQL"],
-    link: "#",
-  },
-  {
-    id: 5,
-    img: import.meta.env.BASE_URL + "images/portfolio-5.png",
-    title: "Restaurant Ordering Platform",
-    text: "Full-service restaurant website with online ordering, table reservations, menu management, and delivery tracking.",
-    tags: ["Vue.js", "Firebase", "Stripe"],
-    link: "#",
-  },
+
 ];
