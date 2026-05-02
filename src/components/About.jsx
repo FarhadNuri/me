@@ -10,7 +10,8 @@ function About() {
             I’m a developer driven by curiosity and a love for problem-solving.
             What started as an interest in understanding how technology works
             gradually turned into a passion. Always striving to write code that is not just
-            functional, but thoughtful and impactful. Feel free to contact me.
+            functional, but thoughtful and impactful. Feel free to reach out if you’d like to
+            collaborate or discuss new opportunities.
           </p>
         </div>
         <div
